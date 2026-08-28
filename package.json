@@ -1,0 +1,20 @@
+{
+  "name": "x-dingtalk-tweet-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node 监控器.mjs",
+    "once": "node 监控器.mjs --once",
+    "login": "node 建立X会话.mjs",
+    "service:install": "node 安装服务.mjs install",
+    "service:status": "node 安装服务.mjs status",
+    "service:uninstall": "node 安装服务.mjs uninstall",
+    "test": "node --test 测试/*.test.mjs"
+  },
+  "dependencies": {
+    "puppeteer-core": "^25.5.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}

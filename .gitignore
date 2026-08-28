@@ -1,0 +1,9 @@
+config.local.json
+状态.json
+日志/*.log
+浏览器数据/
+node_modules/
+.DS_Store
+*.tmp
+开发工程日志.md
+正在关注的任务.md

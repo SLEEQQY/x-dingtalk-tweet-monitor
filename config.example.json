@@ -1,0 +1,12 @@
+{
+  "TARGET_ACCOUNT": "example_account",
+  "POLL_INTERVAL_SECONDS": 60,
+  "FETCH_LIMIT": 10,
+  "INCLUDE_REPLIES": false,
+  "INCLUDE_RETWEETS": false,
+  "DINGTALK_WEBHOOK": "",
+  "DINGTALK_SECRET": "",
+  "DINGTALK_KEYWORD": "X监控",
+  "TIME_ZONE": "Asia/Shanghai",
+  "CHROME_EXECUTABLE_PATH": ""
+}
